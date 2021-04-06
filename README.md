@@ -1,8 +1,8 @@
 
 # Standalone Cafe
 
-This is a simple cafe software for Windows 10 PC allowing timing use time of an account using tickets with a range of durations.
-User enters ticket number for specific time and is locked out when ticket time expires.
+This is a simple cafe software for Windows 10 PC allowing timing use of a Windows account using tickets with a range of durations.
+User enters ticket number for a specific time of use and is locked out when ticket time expires.
 
 ## Setting Up
 * Download the code to a preferred location and pip install modules in `requirements.txt`

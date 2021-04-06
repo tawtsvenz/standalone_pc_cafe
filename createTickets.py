@@ -50,7 +50,7 @@ def createAndDumpTickets():
     print('Filled database')
     print(countMap)
     print('Dumping tickets ...')
-    tawsql.dumpDB('C:\\Users\\tawaz_standard\\Desktop\\tickets.txt')
+    tawsql.dumpDB('tickets.txt')
     print('Tickets dumped to Desktop folder')
     
     

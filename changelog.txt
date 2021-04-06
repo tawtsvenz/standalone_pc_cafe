@@ -1,0 +1,37 @@
+v1.6:
+-TODO: Create gui for viewing and managing database efficiently
+-improve dumpDB to dump with various modes
+- adjust ticket to only add bonus for first one and add flat time for subsequent tickets
+ eg first 10 min will add 13 mins but next will add 10 min to add up to 23 mins.
+-create single click files for dumping database 
+ and creating tickets
+
+v1.5
+-Add timestamps for datetime bought and datetime created for statistical purposes
+-Removed string formatting to make database secure from injection attacks
+-Edit utils.py to prevent closing of joystick configuration app x360ce if app is foreground.
+ rather just minimize it.
+
+v1.4
+-Display hours, mins and seconds when time is greater than 60 mins. Previously only
+ displayed mins and seconds
+-Resize time left label font to to fit in window so text is not cut off
+
+v1.3
+-Keep centered on screen when not fullscreen and keep geometry
+-Keep fullscreen geometry when showing as fullscreen. A bug sometimes happens that causes
+ the window to change size when application closes another fullscreen application such
+ as a game
+
+v1.2
+-close foreground fullscreen app when time is up so that keyboard is freed
+-change setMaximized to setFullScreen so that app appears over taskbar when logged off
+ or not time left
+-some ui improvements including boldening font and increasing size in code editor
+
+v1.1
+-changed database from crude file based to sqlite3 based
+-some ui improvements
+
+v1.0
+-initial version
